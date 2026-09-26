@@ -1,0 +1,31 @@
+.background {
+  background-color: #f8f4ef;
+}
+.container {
+  width: min(100% - 2rem, 130rem);
+  margin-inline: auto;
+  background-color: #f8f4ef;
+  display: grid;
+  padding: 5rem 20rem;
+  grid-template-rows: repeat(2, 1fr); /* 3 rows with equal height */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  gap: 10px; /* Gap between grid items (adjust as needed) */
+  /* Add any additional styling you want for the grid container */
+}
+.title {
+  display: block;
+  width: min(100% - 2rem, 130rem);
+  margin-inline: auto;
+  padding-left: 21rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding-top: 10rem;
+}
+.item {
+  /* Add styling for grid items */
+  /* For example, you can set a background color and padding */
+  background-color: #f8f4ef;
+  margin: 1rem;
+  text-align: center;
+  /* border-radius: 0px; */
+}

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8.6rem;
+  background-color: #2f2e2e;
+}
+
+.logo {
+  font-size: 1.7rem;
+}
+
+.logo a {
+  color: #f8f4ef;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.logo a:hover {
+  color: #90a9ae;
+}
+
+.links {
+  margin-left: 10rem;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.item {
+  font-size: 1.7rem;
+}
+
+.item a {
+  color: #f8f4ef;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.item a:hover {
+  color: #90a9ae;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*
+========= COLORS =========
+Blue #90a9ae;
+Dark Blue #21535e;
+Button BLue #08404c;
+Hover Blue #06333d;
+Beige #f8f4ef;
+Dark Beige #e2dbcf;
+Orange #a58118;
+Hover Orange #957416;
+
+========= TEXT SIZE =========
+  font-size: 2rem;
+  font-size: 4.5rem;
+  font-weight: 600;
+*/

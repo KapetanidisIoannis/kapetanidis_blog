@@ -1,0 +1,14 @@
+.description {
+  font-size: 1.75rem;
+  color: #1f2021;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.description_bold {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f2021;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}

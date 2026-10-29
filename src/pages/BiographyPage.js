@@ -5,7 +5,7 @@ import BioSection from "../components/BiographyPage/BioSection";
 export default function BiographyPage() {
   return (
     <>
-      <HeroSection sectionInfo={"Σχετικά με τον Κώστα Καπετανίδη"} />
+      <HeroSection sectionInfo={"ΣΧΕΤΙΚΑ ΜΕ ΤΟΝ ΚΩΣΤΑ ΚΑΠΕΤΑΝΙΔΗ"} />
       <BioSection />
     </>
   );

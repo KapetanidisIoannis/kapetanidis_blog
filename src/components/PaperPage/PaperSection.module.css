@@ -1,0 +1,146 @@
+.section {
+  background-color: #90a9ae;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+/* THE NEWSPAPER PAPER */
+
+.newspaper {
+  position: relative;
+
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 4rem 5rem;
+
+  /* Slightly yellowed / aged paper */
+  background-color: #eee5d2;
+
+  /* Thin newspaper-like border */
+  border: 1px solid #b8ad97;
+
+  /* Subtle shadow */
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.12),
+    0 15px 35px rgba(0, 0, 0, 0.08);
+
+  /* Slightly uneven corners */
+  border-radius: 2px 1px 3px 1px;
+}
+
+/* SUBTLE PAPER TEXTURE */
+
+.newspaper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: 0.18;
+
+  background-image: radial-gradient(
+    rgba(70, 60, 45, 0.25) 0.5px,
+    transparent 0.5px
+  );
+
+  background-size: 4px 4px;
+}
+
+/* HEADLINE */
+
+.headline {
+  position: relative;
+
+  margin: 0 0 2rem 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  text-align: center;
+
+  letter-spacing: 0.08em;
+
+  color: #211f1b;
+}
+
+.headline p {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 1.5rem 0;
+}
+
+.headline h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* LINE UNDER HEADLINE */
+
+.headline::after {
+  content: "";
+
+  display: block;
+
+  width: 100%;
+
+  margin-top: 2rem;
+
+  border-bottom: 2px solid #302c25;
+}
+
+/* NEWSPAPER TEXT */
+
+.articleText {
+  position: relative;
+
+  /* Newspaper columns 
+  column-count: 2;
+  column-gap: 3rem; */
+
+  /* Justified text */
+  text-align: justify;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 2.5rem;
+  line-height: 1.65;
+
+  color: #292621;
+}
+
+/* PARAGRAPHS */
+
+.articleText p {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+
+  text-align: justify;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  break-inside: avoid;
+}
+
+/* DROP CAP */
+
+.articleText p::first-letter {
+  float: left;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 4.5rem;
+  line-height: 0.8;
+
+  padding-right: 0.15rem;
+  padding-top: 0.1rem;
+
+  font-weight: 700;
+
+  color: #211f1b;
+}

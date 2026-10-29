@@ -5,7 +5,7 @@ import ContactForm from "../components/ContactPage.js/ContactForm";
 export default function Contact() {
   return (
     <>
-      <HeroSection sectionInfo={"Επικοινωνία"} />
+      <HeroSection sectionInfo={"ΕΠΙΚΟΙΝΩΝΙΑ"} />
       <ContactForm />
     </>
   );

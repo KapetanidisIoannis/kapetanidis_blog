@@ -6,7 +6,7 @@ import BookContents from "../components/BookPage/BookContents";
 export default function BookPage() {
   return (
     <>
-      <HeroSection sectionInfo={"Βιβλίο Συγγραφέα"} />
+      <HeroSection sectionInfo={"ΒΙΒΛΙΟ ΣΥΓΓΡΑΦΕΑ"} />
       <FirstBook />
       <BookContents />
     </>

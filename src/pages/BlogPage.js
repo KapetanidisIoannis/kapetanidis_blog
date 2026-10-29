@@ -5,7 +5,7 @@ import DetailedBlogSection from "../components/BlogPage/DetailedBlogSection";
 export default function BlogPage() {
   return (
     <>
-      <HeroSection sectionInfo={"Δημοσιεύσεις"} />
+      <HeroSection sectionInfo={"ΔΗΜΟΣΙΕΥΣΕΙΣ"} />
       <DetailedBlogSection />
     </>
   );

@@ -33,6 +33,7 @@
 }
 
 .item {
+  position: relative;
   font-size: 1.75rem;
   font-weight: 600;
 }
@@ -45,4 +46,22 @@
 
 .item a:hover {
   color: #e2dbcf;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-left: 1em;
+}
+
+.item:hover .dropdown {
+  display: block;
+}
+
+ul {
+  list-style: disc;
+  padding: 0;
+  margin: 0;
 }

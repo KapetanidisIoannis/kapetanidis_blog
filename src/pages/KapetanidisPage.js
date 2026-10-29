@@ -10,7 +10,7 @@ import Section6 from "../components/KapetanidisPage/Section6";
 export default function NikosKapetanidis() {
   return (
     <>
-      <HeroSection sectionInfo={"Σχετικά με τον Νίκο Καπετανίδη"} />
+      <HeroSection sectionInfo={"ΣΧΕΤΙΚΑ ΜΕ ΤΟΝ ΝΙΚΟ ΚΑΠΕΤΑΝΙΔΗ"} />
       <Section1 />
       <Section2 />
       <Section3 />

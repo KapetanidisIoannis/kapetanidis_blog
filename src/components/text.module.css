@@ -1,0 +1,50 @@
+.section {
+  background-color: #e2dbcf;
+  padding: 4.5rem 0;
+}
+
+.box {
+  flex-grow: 1;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.articleText {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #030303;
+  hyphens: auto;
+}
+
+.articleText::first-letter {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.imageContainer img {
+  width: 40%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ΓΙΑ ΤΑ LINKS*/
+.documentLink {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.documentLink:hover {
+  color: #f4a300;
+}

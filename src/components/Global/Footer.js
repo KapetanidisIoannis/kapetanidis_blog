@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={FooterSectionCSS.header_section}>
       <div className={FooterSectionCSS.container}>
         <div className={FooterSectionCSS.logo}>
-          <Link to="/">Κωσταντίνος Καπετανίδης</Link>
+          <Link to="/">Κωστας Καπετανίδης</Link>
         </div>
         <div className={FooterSectionCSS.links}>
           <nav className={FooterSectionCSS.navbar}>
@@ -19,13 +19,7 @@ export default function Footer() {
                 <Link to="/biography">Βιογραφικό</Link>
               </li>
               <li className={FooterSectionCSS.item}>
-                <Link to="/blog">Δημοσιεύσεις</Link>
-              </li>
-              <li className={FooterSectionCSS.item}>
                 <Link to="/kapetanidis">Νίκος Καπετανίδης</Link>
-              </li>
-              <li className={FooterSectionCSS.item}>
-                <Link to="/contact">Επικοινωνία</Link>
               </li>
             </ul>
           </nav>
@@ -34,3 +28,7 @@ export default function Footer() {
     </footer>
   );
 }
+
+/* <li className={FooterSectionCSS.item}>
+                <Link to="/contact">Επικοινωνία</Link>
+              </li> */

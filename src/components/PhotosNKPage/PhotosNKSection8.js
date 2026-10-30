@@ -24,7 +24,7 @@ export default function PhotosNKSection8() {
 
           <Grid item xs={7}>
             <p className={styles.articleText}>
-              Από την ανωτέρω φωτογραφία ο Νίκος σε μεγέθυνση Φώτο
+              Από την ανωτέρω φωτογραφία ο Νίκος σε μεγέθυνση
             </p>
           </Grid>
         </Grid>

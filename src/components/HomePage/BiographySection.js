@@ -1,5 +1,5 @@
 import React from "react";
-import biographycover from "./../../images/biographyImage.png";
+import image from "./../../images/Component 3.png";
 import BiographySectionCSS from "./BiographySection.module.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
@@ -20,64 +20,54 @@ export default function BiographySection() {
         padding: "17.5rem 0rem 7.5rem 0rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "22.5%", marginRight: "22.5%" }}>
-        <Grid container spacing={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "16%", marginRight: "16%" }}>
+        <Grid container spacing={25}>
           <Grid item xs={5}>
-            <CustomImage src={biographycover} alt="Description of the image" />
-            <CustomCaption>
-              Aποκαλυπτήρια αγάλματος "Νίκος Καπετανίδης" στο πάρκο "Παύλος
-              Μελάς" της Θεσσαλονίκης 21 Σεπτ. 2021
-            </CustomCaption>
+            <img
+              src={image}
+              style={{ width: "440px", height: "auto" }}
+              alt="Description of the image"
+            />
           </Grid>
           <Grid item xs={7}>
             <div className={BiographySectionCSS.text}>
-              <SectionTitle>Βιογραφικό Συγγραφέα</SectionTitle>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <SectionTitle>Βιογραφικό Νίκου Καπετανίδη</SectionTitle>
               <SectionText>
                 <div style={{ overflowWrap: "break-word" }}>
-                  Ο Κώστας Καπετανίδης σπούδασε πολιτικός μηχανικός και έκανε
-                  μεταπτυχιακές σπουδές στην «Διαχείριση Τεχνικών Έργων». Έχει
-                  εξειδικευτεί σε θέματα σιδηροδρόμου και απο το το 2011
-                  προσφέρει τις υπηρεσίες του στην Ρυθμιστική Αρχή Σιδηροδρόμων
-                  (ΡΑΣ) σε θέματα ασφάλειας σιδηροδρόμων. Παράλληλα από το 2009
-                  ασχολείται ενεργά ως ιστορικός ερευνητής της περιόδου των
-                  τελευταίων ετών του Ποντιακού Ελληνισμού και ειδικότερα με την
-                  ανάδειξη της ζωής και του δημοσιογραφικού έργου (του αδελφού
-                  του παππού του) Νίκου Καπετανίδη, εμβληματικής προσωπικότητας
-                  της Ποντιακής γενοκτονίας.
+                  Ο Νίκος Καπετανίδης γεννήθηκε το 1889 στο Ριζέ. Γονείς του ο
+                  Χαράλαμπος Καπετανίδης και η Ερμοφύλλη Βελισαρίδου. Αδέλφια
+                  του η Χρυσάνθη (1891) και ο Κώστας (1895). Ως μαθητής στο
+                  περίφημο Φροντιστήριο της Τραπεζούντας είναι πολύ φίλος με τον
+                  Φίλωνα Κτενίδη, Θεόδωρο Κασσάνη, Ηλία Εφραιμίδη, με τους
+                  οποίους μοιράζονται την αγάπη για την λογοτεχνία.
                 </div>
               </SectionText>
-              <div style={{ paddingTop: "2rem" }}>
+              <div>
+                <div>
+                  <hr
+                    style={{
+                      height: "1px",
+                      border: "0",
+                      margin: "2rem 0",
+                      background: "black",
+                    }}
+                  />
+                </div>
                 <CustomButton
                   color={"blue"}
                   text={"Mάθετε Περισσότερα"}
-                  destination={"biography"}
+                  destination={"n_biography"}
                 />
-              </div>
-              <div>
-                <hr
-                  style={{
-                    height: "1px",
-                    border: "0",
-                    margin: "2rem 0",
-                    background: "black",
-                  }}
-                />
-              </div>
-              <div className={BiographySectionCSS.description_bold}>
-                Κώστας Καπετανίδης
-              </div>
-              <div className={BiographySectionCSS.description}>
-                Πολιτικός Μηχανικός, Συγγραφέας
-              </div>
-              <div style={{ display: "flex", gap: "1rem" }}>
-                <SocialMediaLink to={"contact"}>
-                  <EmailIcon sx={{ fontSize: "2.5rem" }} />
-                </SocialMediaLink>
-                <SocialMediaLink
-                  to={"https://www.facebook.com/profile.php?id=100002981243493"}
-                >
-                  <FacebookIcon sx={{ fontSize: "2.5rem" }} />
-                </SocialMediaLink>
               </div>
             </div>
           </Grid>

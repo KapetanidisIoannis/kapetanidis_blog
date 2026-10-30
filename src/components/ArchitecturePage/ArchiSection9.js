@@ -20,8 +20,8 @@ export default function ArchiSection3() {
         <Grid container spacing={3}>
           <Grid item xs={7}>
             <p className={styles.articleText}>
-              Κατοψις εξοχικής κατοικίας εν Λιβερά , του αρχιτέκτονος Μ. Μυρίδου
-              19/7/1918-Α πάτωμα, Ισόγειον
+              Κάτοψις εξοχικής κατοικίας εν Λιβερά, του αρχιτέκτονος Μ. Μυρίδου
+              19/7/1918- Α΄ πάτωμα, Ισόγειον
             </p>
           </Grid>
 

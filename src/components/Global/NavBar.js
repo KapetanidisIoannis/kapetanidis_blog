@@ -58,7 +58,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className={NavBarCSS.item}>
-                <Link>Κώνσταντινος Καπετανίδης</Link>
+                <Link>Κώστας Καπετανίδης</Link>
 
                 <ul className={NavBarCSS.dropdown}>
                   <li>
@@ -69,9 +69,6 @@ export default function NavBar() {
                   </li>
                 </ul>
               </li>
-              <li className={NavBarCSS.item}>
-                <Link to="/contact">Επικοινωνία</Link>
-              </li>
             </ul>
           </nav>
         </div>
@@ -79,6 +76,10 @@ export default function NavBar() {
     </header>
   );
 }
+
+/* <li className={NavBarCSS.item}>
+                <Link to="/contact">Επικοινωνία</Link>
+              </li> */
 
 /*
 <li className={NavBarCSS.item}>

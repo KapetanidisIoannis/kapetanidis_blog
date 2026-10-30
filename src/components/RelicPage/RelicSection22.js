@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import bioImage from "./../../images/Component 2.png";
 import styles from "../text.module.css";
-import image from "./../../images/1923.jpg";
+import image from "./../../images/1923b.jpg";
 import CustomImage from "../styled/CustomImage";
 import SectionText from "../styled/setctionText";
 

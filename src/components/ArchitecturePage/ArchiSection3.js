@@ -20,7 +20,7 @@ export default function ArchiSection3() {
         <Grid container spacing={3}>
           <Grid item xs={7}>
             <p className={styles.articleText}>
-              Έγχρωμο σχέδιο κατοικίας εν ΛΙβερά Πόντου το 1918 υπό του
+              Έγχρωμο σχέδιο κατοικίας εν Λιβερά Πόντου το 1918 υπό του
               αρχιτέκτονος Μ. Μυρίδου
             </p>
           </Grid>

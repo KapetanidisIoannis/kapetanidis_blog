@@ -7,9 +7,9 @@ import KapetanidisSection from "../components/HomePage/KapetanidisSection";
 export default function HomePage() {
   return (
     <main>
-      <BookSection />
       <BiographySection />
       <KapetanidisSection />
+      <BookSection />
     </main>
   );
 }

@@ -1,9 +1,6 @@
-import React from "react";
 import bookcover from "./../../images/bookCover.png";
 import BookSectionCSS from "./BookSection.module.css";
 import SectionTitle from "../styled/sectionTitle";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import CustomButton from "../Global/CustomButton";
 import SectionText from "../styled/setctionText";
 

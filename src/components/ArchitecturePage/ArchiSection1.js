@@ -1,10 +1,5 @@
-import React from "react";
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
-import bioImage from "./../../images/Component 2.png";
 import styles from "../text.module.css";
-import SectionText from "../styled/setctionText";
-import SectionTitle from "../styled/sectionTitle";
 
 export default function ArchiSection1() {
   return (

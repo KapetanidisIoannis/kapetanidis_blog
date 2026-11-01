@@ -1,4 +1,3 @@
-import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Component_1 from "./../../images/Component_1.png";

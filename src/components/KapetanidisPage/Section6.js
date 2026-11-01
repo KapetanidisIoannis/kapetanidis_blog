@@ -1,4 +1,3 @@
-import React from "react";
 import Sectio3CSS from "./Section3.module.css";
 import image from "./../../images/7_ΝΚ προσωπογραφια με παπιγιόν.jpg";
 

@@ -7,19 +7,22 @@ export default function Footer() {
     <footer className={FooterSectionCSS.header_section}>
       <div className={FooterSectionCSS.container}>
         <div className={FooterSectionCSS.logo}>
-          <Link to="/">Κωστας Καπετανίδης</Link>
+          <Link to="/">Νίκος Καπετανίδης</Link>
         </div>
         <div className={FooterSectionCSS.links}>
           <nav className={FooterSectionCSS.navbar}>
             <ul className={FooterSectionCSS.list}>
               <li className={FooterSectionCSS.item}>
-                <Link to="/book">Βιβλίο</Link>
+                <Link to="/n_biography">Βιογραφικό</Link>
               </li>
               <li className={FooterSectionCSS.item}>
-                <Link to="/biography">Βιογραφικό</Link>
+                <Link to="/kapetanidis">Αγώνες</Link>
               </li>
               <li className={FooterSectionCSS.item}>
-                <Link to="/kapetanidis">Νίκος Καπετανίδης</Link>
+                <Link to="/paper">εφημερίδα "ΕΠΟΧΗ"</Link>
+              </li>
+              <li className={FooterSectionCSS.item}>
+                Powered by Ioannis Kapetanidis & Nikos Kapetanidis
               </li>
             </ul>
           </nav>

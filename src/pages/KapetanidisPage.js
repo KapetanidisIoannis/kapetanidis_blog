@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../components/Global/HeroSection";
 import Section1 from "../components/KapetanidisPage/Section1";
 import Section2 from "../components/KapetanidisPage/Section2";

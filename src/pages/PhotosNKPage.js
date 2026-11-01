@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../components/Global/HeroSection";
 import PhotosNKSection from "../components/PhotosNKPage/PhotosNKSection";
 import PhotosNKSection2 from "../components/PhotosNKPage/PhotosNKSection2";

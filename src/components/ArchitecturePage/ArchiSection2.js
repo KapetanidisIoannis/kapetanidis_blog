@@ -1,11 +1,8 @@
-import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import image from "./../../images/71.JPG";
 import styles from "../text.module.css";
-import SectionTitle from "../styled/sectionTitle";
 import CustomImage from "../styled/CustomImage";
-import SectionText from "../styled/setctionText";
 
 export default function ArchiSection2() {
   return (

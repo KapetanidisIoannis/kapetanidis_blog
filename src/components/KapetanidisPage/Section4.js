@@ -1,4 +1,3 @@
-import React from "react";
 import Sectio3CSS from "./Section4.module.css";
 import image from "./../../images/Component 7.png";
 

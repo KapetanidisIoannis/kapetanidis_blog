@@ -1,6 +1,4 @@
-import React from "react";
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import styles from "../text.module.css";
 import CustomImage from "../styled/CustomImage";
 import image2 from "./../../images/2_.jpg";
@@ -19,8 +17,6 @@ import image10 from "./../../images/10_.jpg";
 import image11 from "./../../images/11_.jpg";
 import image12 from "./../../images/12_.jpg";
 import image1 from "./../../images/1_.jpg";
-import bioImage from "./../../images/Component 2.png";
-import SectionText from "../styled/setctionText";
 
 export default function BioSection() {
   return (

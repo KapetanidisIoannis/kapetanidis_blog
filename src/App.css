@@ -1,3 +1,8 @@
+/* ==============================
+   GLOBAL RESPONSIVE SETTINGS
+   ============================== */
+
+/* Make sizing predictable */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,8 +10,101 @@
   font-family: sans-serif;
 }
 
-html {
+/* Prevent horizontal scrolling */
+html,
+body {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.twoColumnLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make videos responsive */
+video,
+iframe {
+  max-width: 100%;
+}
+
+/* General page layout */
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Responsive text */
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.6;
+}
+
+/* ==============================
+   TABLETS
+   ============================== */
+
+@media (max-width: 900px) {
+  section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+/* ==============================
+   MOBILE PHONES
+   ============================== */
+
+@media (max-width: 600px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .twoColumnLayout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .image,
+  .text {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 /*

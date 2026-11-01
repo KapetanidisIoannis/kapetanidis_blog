@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../components/Global/HeroSection";
 import N_BioSection from "../components/N_BiographyPage/N_BioSection";
 

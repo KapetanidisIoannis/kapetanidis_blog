@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../components/Global/HeroSection";
 import HistorySection from "../components/HistoryPage/HistorySection";
 import HistorySection2 from "../components/HistoryPage/HistorySection2";

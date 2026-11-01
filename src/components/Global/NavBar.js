@@ -46,7 +46,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className={NavBarCSS.item}>
-                <Link>Σύλογος Νι. Καπ.</Link>
+                <Link>Σωματείο Δράσης ΝΚ</Link>
 
                 <ul className={NavBarCSS.dropdown}>
                   <li>

@@ -1,9 +1,4 @@
-import React from "react";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
-import SectionText from "../styled/setctionText";
 import styles from "./PaperSection.module.css";
-import { Link } from "react-router-dom";
 
 export default function PaperSection1() {
   return (

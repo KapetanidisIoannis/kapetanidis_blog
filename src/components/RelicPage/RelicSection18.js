@@ -15,13 +15,13 @@ export default function RelicSection18() {
         backgroundColor: "#90a9ae",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Οι φάκελοι των γραμμάτων που έγραψε ο Νίκος από την φυλακή αρχικά
               της Τραπεζούντας και σε συνέχεια της Αμάσειας. Συνελήφθη τον
@@ -46,8 +46,8 @@ export default function RelicSection18() {
               κακή καρδιά… Εδούλεψα όσο μπορούσα για την πατρίδα. Από την νέα
               γενιά πιστεύω τον υψωμό της…»
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

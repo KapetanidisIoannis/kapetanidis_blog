@@ -13,20 +13,20 @@ export default function PhotosNKSection12() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Η πιο γνωστή φωτογραφία του Νίκου Καπετανίδη με το παπιγιόν που
               κοσμεί συνήθως τα άπειρα άρθρα που έχουν γραφτεί για αυτόν. Είναι
               την εποχή της ωριμότητας του γύρω στα 1920.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

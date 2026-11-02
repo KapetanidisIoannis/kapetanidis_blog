@@ -15,20 +15,20 @@ export default function RelicSection20() {
         backgroundColor: "#f8f4ef",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Το επίσημο έγγραφο απέλασης από την Τουρκία λόγω ανταλλαγής
               πληθυσμών για την μητέρα Ερμοφύλλη Καπετανίδου και την Χρυσάνθη
               (κόρη) και την Παγώνα (νεαρή προστατευόμενη).
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

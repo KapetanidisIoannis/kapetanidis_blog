@@ -21,8 +21,14 @@ import image1 from "./../../images/1_.jpg";
 export default function BioSection() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
-        <div className={styles.imageContainer}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+          }}
+        >
           <CustomImage src={image2} />;
         </div>
         <br />
@@ -70,7 +76,14 @@ export default function BioSection() {
           Ποντιακού Ελληνισμού από την πένα του Νίκου Καπετανίδη* στο Lazart
           Hotel.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image3} />;
         </div>
         <br />
@@ -118,7 +131,14 @@ export default function BioSection() {
           συγγραφέα τον απόγονο του Κώστα Καπετανίδη με τίτλο &quot;Η δύση του
           Ποντιακού Ελληνισμού μέσα από την πένα του Νίκου Καπετανίδη&quot;
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image4} />;
         </div>
         <br />
@@ -209,7 +229,14 @@ export default function BioSection() {
           Σιδηρόπουλου,&quot; Πορείες θανάτου και ζωής&quot;, με θέμα τον Δυτικό
           Πόντο και την Γενοκτονία.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image5} />;
         </div>
         <br />
@@ -236,7 +263,14 @@ export default function BioSection() {
           Παρχαρίδη, μέλος του διοικητικού συμβουλίου του σωματείου Δράσης
           *Νίκος Καπετανίδης*, με θέμα τις σφαγές του Τοπάλ Οσμάν στον Πόντο
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image14} />;
         </div>
         <br />
@@ -305,7 +339,14 @@ export default function BioSection() {
           Καπετανίδη, σε συνεργασία με όλα τα σωματεία του Νομού Ροδόπης, στο
           Μουσικό Σχολείο Κομοτηνής.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image6} />;
         </div>
         <br />
@@ -353,7 +394,14 @@ export default function BioSection() {
           Δράσης Νίκος Καπετανίδης, που έλαβε χώρα στην αίθουσα της
           Αρχιεπισκοπής, στον Αρχάγγελο Λευκωσίας.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image7} />;
         </div>
         <br />
@@ -407,7 +455,14 @@ export default function BioSection() {
           καταδικασθέντων στα υπό του Μουσταφά Κεμάλ οργανωθέντα
           &quot;Δικαστήρια Ανεξαρτησίας &quot;, τον Σεπτέμβριο του 1921.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image1} />;
         </div>
         <br />
@@ -436,7 +491,14 @@ export default function BioSection() {
           Καρεπίδης. *Καραπάντσειο Πολιτιστικό Κέντρο*, Δήμου
           Αμπελοκήπων-Μενεμένης
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image16} />;
         </div>
         <br />
@@ -523,7 +585,14 @@ export default function BioSection() {
           στην Τουρκία που αποζητούν την αλήθεια που θα οδηγήσει στην πραγματική
           Ειρήνη, Φιλία και συνεργασία των λαών της Ελλάδος και της Ανατολίας.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image15} />;
         </div>
         <br />
@@ -579,7 +648,14 @@ export default function BioSection() {
           του Δήμου Θεσσαλονίκης και της Πανελλήνιας Ομοσπονδίας Ενώσεων
           Συντακτών, με την στήριξη όλων των Ενώσεων.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image9} />;
         </div>
         <br />
@@ -662,7 +738,14 @@ export default function BioSection() {
           σε συνεργασία με την Κυπριακή Εστία Βορείου Ελλάδος και τους Δήμους
           Ωραιοκάστρου και Παύλου Μελά.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image13} />;
         </div>
         <br />
@@ -689,7 +772,14 @@ export default function BioSection() {
           για τη συμπλήρωση 70 ετών από την έναρξη του Εθνικοαπελευθερωτικού
           Αγώνα της ΕΟΚΑ για την Ένωση της Κύπρου με την Ελλάδα.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image17} />;
         </div>
         <br />
@@ -745,7 +835,14 @@ export default function BioSection() {
           Αργυρούπολης Αττικής καθώς και πόντιοι καλλιτέχνες, οι οποίοι
           συμμετείχαν στην αποστολή αφιλοκερδώς.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image10} />;
         </div>
         <br />
@@ -792,7 +889,14 @@ export default function BioSection() {
           Πάφο , Νίκος Καπετανίδης , Ευαγόρας Παλικαρίδης»- μεγάλη συναυλία
           αφιέρωμα στους Εθνομάρτυρες Πόντου και Κύπρου.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image11} />;
         </div>
         <br />
@@ -864,7 +968,14 @@ export default function BioSection() {
           Καλεντερίδη (γεωπολιτικό αναλυτή). Τη συζήτηση συντόνιζε ο
           δημοσιογράφος Χρήστος Κωνσταντινίδης
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image12} />;
         </div>
         <br />
@@ -918,7 +1029,14 @@ export default function BioSection() {
           Μνημείο της Γενοκτονίας των Ελλήνων του Πόντου στο Παραλίμνη της
           Κύπρου κατόπιν πρότασης του συλλόγου μας.
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image10} />;
         </div>
         <br />
@@ -946,7 +1064,14 @@ export default function BioSection() {
           χώρου, με δημιουργία πράσινου , αποκατάσταση φωτισμού και τοποθέτηση
           ειδική πινακίδας
         </p>
-        <div className={styles.imageContainer}>
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "400px",
+            margin: "0 auto",
+            marginTop: "2rem",
+          }}
+        >
           <CustomImage src={image1} />;
         </div>
       </Box>

@@ -17,18 +17,18 @@ export default function PhotosSection5() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Ο αρχιτέκτονας Μιλτιάδης Μυρίδης ο οποίος παντρεύτηκε την αδελφή
               του Νίκου, Χρυσάνθη Καπετανίδου
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

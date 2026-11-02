@@ -15,13 +15,13 @@ export default function RelicSection6() {
         backgroundColor: "#90a9ae",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Το έγγραφο είναι το ΕΝΔΕΙΚΤΙΚΟ αποφοίτησης του Νίκου Καπετανίδη
               από το Φροντιστήριο Τραπεζούντας μαθητού της Δευτέρας τάξης για το
@@ -32,8 +32,8 @@ export default function RelicSection6() {
               ιδιόχειρη υπογραφή του Διευθυντή του ιδρύματος, ενώ στο κάτω δεξιό
               περιθώριο αναγράφεται ο εκδοτικός οίκος: «ΤΥΠ. ΣΕΡΑΪΔΗ-ΤΡΑΠΕΖΟΥΣ».
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

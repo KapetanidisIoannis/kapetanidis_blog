@@ -10,9 +10,9 @@ import SectionText from "../styled/setctionText";
 export default function RelicSection19() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Γράμματα του Νίκου Καπετανίδη από την φυλακή της Αμάσειας τα οποία
               διέσωσε η αδελφή του Χρυσάνθη , που μετά την απώλεια του συζύγου
@@ -28,11 +28,11 @@ export default function RelicSection19() {
               θάνατος είναι τιμή για όλους μας … Θαρρείτε και καρτερείτε… Μια
               φορά κανείς πεθαίνει…»…
             </p>
-          </Grid>
-          <Grid item xs={5}>
+          </div>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

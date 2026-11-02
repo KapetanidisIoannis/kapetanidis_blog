@@ -15,13 +15,13 @@ export default function RelicSection8() {
         backgroundColor: "#f8f4ef",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Η άδεια διδασκαλίας σε Ελληνικά Σχολεία από την ΙΕΡΑ ΜΗΤΡΟΠΟΛΙΣ
               ΡΟΔΟΠΟΛΕΩΣ στον Κώστα Καπετανίδη (τον αδελφό του Νίκου): «Λαβόντες
@@ -32,8 +32,8 @@ export default function RelicSection8() {
               αυτού της καθ&#39; ημάς Θεοσώστου επαρχίας κατά το σχολικόν έτος
               1913-1914... Εν Λιβερά τη 13 Μαΐου 1914».
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

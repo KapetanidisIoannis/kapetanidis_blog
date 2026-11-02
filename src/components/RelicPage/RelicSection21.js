@@ -15,9 +15,9 @@ export default function RelicSection20() {
         backgroundColor: "#90a9ae",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Η εφημερίδα Φάρος της Ανατολής των φιλότουρκων αδελφών Σεράση
               (φύλλο 2 Οκτωβρίου 1921) αναγγέλλει την εκτέλεση των Ποντίων
@@ -30,12 +30,12 @@ export default function RelicSection20() {
               Παρέμεινε στην θέση αυτήν έως το 1938, οπότε και εξελέγη
               Αρχιεπίσκοπος Αθηνών και πάσης Ελλάδος.
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

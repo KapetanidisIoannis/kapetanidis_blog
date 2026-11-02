@@ -17,19 +17,19 @@ export default function PhotosSection9() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Τάξη του παρθεναγωγείου Τραπεζούντας με το δάσκαλο στην μέση.
               Δεύτερη κάτω δεξιά η Σοφία Λεοντίδου μέλλουσα γυναίκα του Κώστα
               Καπετανίδη
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

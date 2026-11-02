@@ -15,9 +15,9 @@ export default function RelicSection5() {
         backgroundColor: "#f8f4ef",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Το έγγραφο της εικόνας αποτελεί επιστολή γραμμένη σε επιστολόχαρτο
               της περίφημης καπνοβιομηχανίας των Ελλήνων «Αδελφών Ασλανίδη» στο
@@ -32,11 +32,11 @@ export default function RelicSection5() {
               ελληνικής παροικίας και της επιχειρηματικής δραστηριότητας των
               Ελλήνων στη νότια Ρωσία στα τέλη του 19ου αιώνα.
             </p>
-          </Grid>
-          <Grid item xs={5}>
+          </div>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

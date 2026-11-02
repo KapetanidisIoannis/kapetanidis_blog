@@ -4,7 +4,7 @@ import styles from "../text.module.css";
 export default function PhotosSection() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
         <p className={styles.articleText}>
           Η ιστορία μας ξεκινά στην τουρκοκρατούμενη Τραπεζούντα της δεκαετίας
           1880-1890. Παλιά πρωτεύουσα της Ποντιακής Αυτοκρατορίας των Κομνηνών,

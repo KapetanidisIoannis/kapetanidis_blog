@@ -17,19 +17,19 @@ export default function PhotosSection2() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
-          <Grid item xs={7}>
+          </div>
+          <div>
             <p className={styles.articleText}>
               Η Αγλαΐα Μεταξά , η σύζυγος του Νίκου Καπετανίδη. Είναι η αδελφή
               του φίλου του Νίκου, Ιφικράτη Μεταξά. Θα παντρευτούν στα τέλη του
               1919 και θα μείνουν μαζί για μόνο ενάμιση χρόνο πριν την εκτέλεση
               του Νίκου. Δεν θα προλάβουν να κάνουν παιδιά.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

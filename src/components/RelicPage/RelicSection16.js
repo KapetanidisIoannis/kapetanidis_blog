@@ -10,13 +10,13 @@ import SectionText from "../styled/setctionText";
 export default function RelicSection16() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Γράμμα του Νίκου στον πατέρα του Χαράλαμπο με ημερομηνία 21
               Σεπτεμβρίου 1917 ο οποίος εκείνη την εποχή ήταν στο Βατούμ στον
@@ -28,8 +28,8 @@ export default function RelicSection16() {
               Τούρκοι γιατί είχε γίνει έρευνα εναντίον του από τις τουρκικές
               αρχές για τις αντιτουρκικές απόψεις που εξέφραζε.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

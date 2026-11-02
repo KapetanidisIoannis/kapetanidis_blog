@@ -15,9 +15,9 @@ export default function RelicSection11() {
         backgroundColor: "#f8f4ef",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Χειρόγραφο σημείωμα του Νίκου για την Ψυχολογία του Εφήβου. Ο
               Νίκος έγραψε «…Το εκπαιδευτικό ζήτημα , η σχολική αγωγή αποτελούν
@@ -36,12 +36,12 @@ export default function RelicSection11() {
               βυζαντινισμούς και καλογερισμούς ας το κάνει επιτέλους η μεγάλη
               εθνική Αρχή (Ελλάδα )..»
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

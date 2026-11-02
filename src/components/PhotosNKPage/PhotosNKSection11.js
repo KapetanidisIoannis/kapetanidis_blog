@@ -13,9 +13,9 @@ export default function PhotosNKSection11() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Ο Νίκος με τέσσερις φίλους στην πλατεία Μεϊντάνι την 19 Ιουνίου
               1917. Είναι η κεντρικότερη πλατεία εκείνης της εποχής και η καρδία
@@ -23,12 +23,12 @@ export default function PhotosNKSection11() {
               κεντρικό σημείο συνάντησης και εμπορίου για την ακμάζουσα
               χριστιανική κοινότητα των Ελλήνων και Αρμενίων
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

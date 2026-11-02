@@ -13,9 +13,9 @@ export default function PhotosNKSection3() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Η ομάδα γυμναστικής του Φροντιστηρίου Τραπεζούντας το 1907. Ο
               Νίκος διακρίνεται 6ος από τα δεξιά. Στις καλές εποχές το
@@ -25,12 +25,12 @@ export default function PhotosNKSection3() {
               «Φάρος της Ανατολής» διαδραμάτισε καθοριστικο ρόλο στην πνευματική
               αναγένηση
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

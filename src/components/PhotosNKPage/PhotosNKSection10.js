@@ -13,19 +13,19 @@ export default function PhotosNKSection10() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Ο Νίκος με φιλική παρέα. Μάλλον πρόκειται για οικογενειακή
               συγκέντρωση γιατί διακρίνουμε στα δεξιά του Νίκου και ένα παιδί
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

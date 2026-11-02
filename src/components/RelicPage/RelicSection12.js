@@ -15,13 +15,13 @@ export default function RelicSection12() {
         backgroundColor: "#90a9ae",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Χειρόγραφο σημείωμα του Νίκου για την ποίηση του Κωστή Παλαμά τον
               οποίο θαύμαζέ πολύ και είχε πολλά έργα του στην βιβλιοθήκη του.
@@ -42,8 +42,8 @@ export default function RelicSection12() {
               του από την φυλακή: « ..Από την νέα γενιά περιμένω τον υψωμό του
               έθνους…».
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

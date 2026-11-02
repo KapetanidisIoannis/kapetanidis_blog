@@ -17,18 +17,18 @@ export default function PhotosSection15() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Η μητέρα (του Νίκου) Ερμοφύλλη με την κόρη της Χρυσάνθη, την
               Αγλαΐα Μεταξά (χήρα του Νίκου) και την προστατευόμενή τους Παγώνα.
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

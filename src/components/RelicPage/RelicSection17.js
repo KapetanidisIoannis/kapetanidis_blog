@@ -15,9 +15,9 @@ export default function RelicSection17() {
         backgroundColor: "#f8f4ef",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Είναι το προσκλητήριο του γάμου της Χρυσάνθης Καπετανίδου (αδελφή
               Νίκου) με τον αρχιτέκτονά Μιλτιάδη Μυρίδη στον ιερό ναό της Αγίας
@@ -28,11 +28,11 @@ export default function RelicSection17() {
               λεγόμενης ισπανικής γρίπης εκδηλώθηκε το 1918 και αποδεκάτισε τον
               πληθυσμό της Ευρώπης και μετά και των άλλων ηπείρων.
             </p>
-          </Grid>
-          <Grid item xs={5}>
+          </div>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

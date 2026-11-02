@@ -7,7 +7,7 @@ import SectionText from "../styled/setctionText";
 export default function BookSection() {
   return (
     <section className={BookSectionCSS.book_section}>
-      <div className={BookSectionCSS.container}>
+      <div className={`${BookSectionCSS.container} responsive-columns`}>
         <div className={BookSectionCSS.text}>
           <SectionTitle marginBottom="0">Η Δύση του </SectionTitle>
           <SectionTitle> Ποντιακού Ελληνισμού</SectionTitle>

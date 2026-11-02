@@ -17,11 +17,11 @@ export default function PhotosSection12() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
-          <Grid item xs={7}>
+          </div>
+          <div>
             <p className={styles.articleText}>
               Ο Κώστας Καπετανίδης κατά την διάρκεια της εξορίας στο Ερζερούμ το
               1923. Οι Τούρκοι μετά τις εκτελέσεις της πνευματικής ελίτ των
@@ -30,8 +30,8 @@ export default function PhotosSection12() {
               γνώσεων τον έβαλαν βοηθό στο φαρμακείο του στρατοπέδου
               συγκέντρωσης.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

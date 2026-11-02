@@ -13,13 +13,13 @@ export default function PhotosNKSection2() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               Ο Νίκος μαθητής στο Φροντιστήριο Τραπεζούντας μαζί με τους
               συμμαθητές του Ορφανίδη και Χαρδανόπουλο ( ο τρίτος είναι
@@ -31,8 +31,8 @@ export default function PhotosNKSection2() {
               σημασίας για τη διατήρηση της εθνικής και χριστιανικής συνείδησης
               στην περιοχή του Πόντου κατά την Οθωμανική περίοδο.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

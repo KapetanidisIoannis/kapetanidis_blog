@@ -12,7 +12,7 @@ import SectionText from "../styled/setctionText";
 export default function RelicSection() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
         <p className={styles.articleText}>
           Στην παρούσα ενότητα παρουσιάζονται τα σημαντικότερα από τα κειμήλια
           που κατάφερε να διασώσει η οικογένεια Καπετανίδη και να τα φέρει στην

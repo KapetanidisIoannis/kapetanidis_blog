@@ -15,9 +15,9 @@ export default function RelicSection15() {
         backgroundColor: "#90a9ae",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Πρόκειται για λογοτεχνικό δοκίμιο του Νίκου αφιερωμένο προφανώς σε
               κάποια νεαρή Ποντιοπούλα την Χρυσαγή Λαμπριανίδου η οποία πέθανε
@@ -28,12 +28,12 @@ export default function RelicSection15() {
               Ποντιακού Ελληνισμού» από την πένα του Ν. Καπετανίδη (του Κώστα
               Καπετανίδη αυτοέκδοση 2022)
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

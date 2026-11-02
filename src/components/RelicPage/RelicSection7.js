@@ -10,9 +10,9 @@ import SectionText from "../styled/setctionText";
 export default function RelicSection7() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Το απολυτήριο της Χρυσάνθης Καπετανίδου ετών 15 (μικρής αδελφής
               του Νίκου) από «Το εν Τραπεζούντι Ελληνικόν Κεντρικόν
@@ -23,12 +23,12 @@ export default function RelicSection7() {
               υποβλήθηκε στις καθιερωμένες απολυτήριες εξετάσεις, κρίθηκε αξία
               του βαθμού «Άριστα» (5) και διαγωγής «Αρίστης».
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

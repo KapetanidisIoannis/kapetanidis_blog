@@ -10,7 +10,7 @@ export default function BioSection() {
         padding: "4rem 0rem",
       }}
     >
-      <Box className={styles.box}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
         <p className={styles.articleText}>
           <strong>Πρόεδρος</strong>
           <br />

@@ -14,15 +14,15 @@ export default function Section1() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
             <p>
               Ο Νίκος Καπετανίδης με όπλα την εποχή της ρωσικής κατοχής της
               Τραπεζούντας - 1916-1918
             </p>
-          </Grid>
-          <Grid item xs={7}>
+          </div>
+          <div>
             <SectionTitle>Το Εθνικό Ζήτημα</SectionTitle>
             <SectionText>
               Το Εθνικό Ζήτημα : Κυρίαρχο ζήτημα για τον Νίκο ήταν η προσπάθεια
@@ -42,8 +42,8 @@ export default function Section1() {
               της οπισθοδρομικής συντηρητικής άρχουσας τάξης της Ελληνικής
               ομογένειας.
             </SectionText>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

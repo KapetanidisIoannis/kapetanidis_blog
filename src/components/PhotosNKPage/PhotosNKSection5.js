@@ -13,9 +13,9 @@ export default function PhotosNKSection5() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Ο Νίκος με τον άντρα της αδελφής του τον Μιλτιάδη Μυρίδη. Ο
               Μυρίδης σπουδάσε αρχιτέκτονας στην Κωνσταντινούπολη και όταν
@@ -31,12 +31,12 @@ export default function PhotosNKSection5() {
               1918 και πέθανε . Αρχιτεκτονικά σχέδιά του του διέσωσε η Χρυσάνθη
               και παρουσιάζονται στην ιστοσελίδα αυτή.
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

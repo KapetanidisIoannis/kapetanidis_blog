@@ -13,19 +13,19 @@ export default function PhotosNKSection13() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Ο Νίκος στα γραφεία της εφημερίδας «ΕΠΟΧΗ» μαζί με φίλο του ο
               οποίος κρατάει στα χεριά του και διαβάζει ένα φύλλο της «ΕΠΟΧΗΣ».
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

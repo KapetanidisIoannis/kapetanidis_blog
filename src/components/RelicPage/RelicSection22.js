@@ -10,13 +10,13 @@ import SectionText from "../styled/setctionText";
 export default function RelicSection20() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
+          </div>
 
-          <Grid item xs={7}>
+          <div>
             <p className={styles.articleText}>
               ‘Ένα πολύ σημαντικό κειμήλιο : το επίσημο έγγραφο ταυτοποίησης για
               την απέλαση από Τουρκία (ανταλλαγή πληθυσμών του 1923) για τον
@@ -33,8 +33,8 @@ export default function RelicSection20() {
               (Ρουμανία) ήταν από τις πιο συνηθισμένες θαλάσσιες διαδρομές
               εξόδου από τον Πόντο εκείνη την περίοδο.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

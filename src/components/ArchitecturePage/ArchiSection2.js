@@ -13,18 +13,18 @@ export default function ArchiSection2() {
         paddingBottom: "8rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
-          <Grid item xs={7}>
+          </div>
+          <div>
             <p className={styles.articleText}>
               Έγχρωμο σχέδιο εξοχικής κατοικίας στην Λιβερά το 1918 υπό του
               αρχιτέκτονος Μ. Μυρίδου
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

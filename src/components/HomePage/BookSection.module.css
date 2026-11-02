@@ -56,9 +56,11 @@
 
 /* Because of the image goes to the section under */
 .image {
-  height: 60rem;
+  height: auto;
 }
 
 .book_image {
   width: 100%;
+  height: auto;
+  object-fit: contain;
 }

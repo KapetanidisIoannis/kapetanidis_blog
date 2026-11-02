@@ -7,9 +7,7 @@ import BookSectionCSS from "./BookSection.module.css";
 export default function BiographySection() {
   return (
     <section className={BookSectionCSS.book_section}>
-      <div
-        className={`${BookSectionCSS.container} ${BookSectionCSS.twoColumnLayout}`}
-      >
+      <div className={`${BookSectionCSS.container} responsive-columns`}>
         <div className={BookSectionCSS.image}>
           <img src={image} className={BookSectionCSS.book_image} />
         </div>

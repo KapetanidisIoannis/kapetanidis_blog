@@ -15,21 +15,21 @@ export default function RelicSection9() {
         backgroundColor: "#90a9ae",
       }}
     >
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Το αγγελτήριο για τον αρραβώνα του Νίκου Καπετανίδη με την 19χρονη
               Ελένη Παπαδοπούλου τον Απρίλιο του 1914 στην Τραπεζούντα. Όπως
               γράφουμε παραπάνω η Ελένη έπασχε από φυματίωση και θα πεθάνει τον
               Αύγουστο του ιδίου έτους.
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

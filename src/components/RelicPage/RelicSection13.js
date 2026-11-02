@@ -10,9 +10,9 @@ import SectionText from "../styled/setctionText";
 export default function RelicSection13() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Χειρόγραφο σημειώματα του Νίκου με τίτλο «Κρητικά Σημειώματα».
               Όπως γράφει το το χρησιμοποιεί για να κρατάει σημειώσεις και
@@ -25,12 +25,12 @@ export default function RelicSection13() {
               είναι φυγόστρατος από τον τούρκικο στρατό και κρύβεται στην Λιβερά
               , όπου διδάσκει ως δάσκαλος ο αδελφός του Κώστας.
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

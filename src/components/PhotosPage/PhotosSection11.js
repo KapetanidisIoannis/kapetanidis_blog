@@ -17,8 +17,8 @@ export default function PhotosSection11() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={7}>
+        <div className="responsive-columns section1-container">
+          <div>
             <p className={styles.articleText}>
               Εκδρομή στην Κρώμνη . Η Κρώμνη (σήμερα Korom ή Korum στην Τουρκία)
               ήταν μια ιστορική, ελληνική κωμόπολη του Πόντου, χτισμένη στην
@@ -27,12 +27,12 @@ export default function PhotosSection11() {
               Παρυάδρη, και αποτέλεσε ένα από τα σημαντικότερα προπύργια του
               Ελληνισμού και των κρυπτοχριστιανών
             </p>
-          </Grid>
+          </div>
 
-          <Grid item xs={5}>
+          <div>
             <CustomImage src={image} />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

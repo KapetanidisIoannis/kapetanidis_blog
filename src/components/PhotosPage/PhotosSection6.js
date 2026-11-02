@@ -17,19 +17,19 @@ export default function PhotosSection6() {
       }}
     >
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+        <div className="responsive-columns section1-container">
+          <div>
             <CustomImage src={image} />
-          </Grid>
-          <Grid item xs={7}>
+          </div>
+          <div>
             <p className={styles.articleText}>
               Άφιξη οικογένειας Καπετανίδη στην Αθήνα το 1923 μετά τον ξεριζωμό.
               Μπροστά είναι η μητέρα τους Ερμοφύλλη Καπετανίδου με την κόρη
               Χρυσάνθη και πίσω ο γιός Κώστας με την ορφανή Παγώνα που είχαν
               πάρει υπό την προστασία τους.
             </p>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

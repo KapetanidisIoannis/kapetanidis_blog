@@ -29,7 +29,7 @@ export default function BioSection() {
             margin: "0 auto",
           }}
         >
-          <CustomImage src={image2} />;
+          <CustomImage src={image2} />
         </div>
         <br />
         <br />
@@ -84,7 +84,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image3} />;
+          <CustomImage src={image3} />
         </div>
         <br />
         <br />
@@ -139,7 +139,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image4} />;
+          <CustomImage src={image4} />
         </div>
         <br />
         <br />
@@ -237,7 +237,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image5} />;
+          <CustomImage src={image5} />
         </div>
         <br />
         <br />
@@ -271,7 +271,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image14} />;
+          <CustomImage src={image14} />
         </div>
         <br />
         <br />
@@ -347,7 +347,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image6} />;
+          <CustomImage src={image6} />
         </div>
         <br />
         <br />
@@ -402,7 +402,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image7} />;
+          <CustomImage src={image7} />
         </div>
         <br />
         <br />
@@ -463,7 +463,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image1} />;
+          <CustomImage src={image1} />
         </div>
         <br />
         <br />
@@ -499,7 +499,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image16} />;
+          <CustomImage src={image16} />
         </div>
         <br />
         <br />
@@ -593,7 +593,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image15} />;
+          <CustomImage src={image15} />
         </div>
         <br />
         <br />
@@ -656,7 +656,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image9} />;
+          <CustomImage src={image9} />
         </div>
         <br />
         <br />
@@ -746,7 +746,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image13} />;
+          <CustomImage src={image13} />
         </div>
         <br />
         <br />
@@ -780,7 +780,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image17} />;
+          <CustomImage src={image17} />
         </div>
         <br />
         <br />
@@ -843,7 +843,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image10} />;
+          <CustomImage src={image10} />
         </div>
         <br />
         <br />
@@ -897,7 +897,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image11} />;
+          <CustomImage src={image11} />
         </div>
         <br />
         <br />
@@ -976,7 +976,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image12} />;
+          <CustomImage src={image12} />
         </div>
         <br />
         <br />
@@ -1037,7 +1037,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image10} />;
+          <CustomImage src={image10} />
         </div>
         <br />
         <br />
@@ -1072,7 +1072,7 @@ export default function BioSection() {
             marginTop: "2rem",
           }}
         >
-          <CustomImage src={image1} />;
+          <CustomImage src={image1} />
         </div>
       </Box>
     </section>

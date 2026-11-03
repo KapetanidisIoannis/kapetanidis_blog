@@ -13,7 +13,7 @@ export default function Section1() {
         padding: "4rem 0rem",
       }}
     >
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
         <div className="responsive-columns section1-container">
           <div>
             <CustomImage src={image} />

@@ -1,11 +1,12 @@
+import Box from "@mui/material/Box";
 import Sectio3CSS from "./Section5.module.css";
 import image from "./../../images/Component 8.png";
 
 export default function Section1() {
   return (
     <section className={Sectio3CSS.book_section}>
-      <div className={Sectio3CSS.container}>
-        <div className={Sectio3CSS.text}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
           <div className={Sectio3CSS.title}>
             Ο Αγώνας ενάντια στη Λογοκρισία
           </div>
@@ -41,7 +42,7 @@ export default function Section1() {
             "Η τουρκική λογοκρισία στην εφημερίδα εποχή τον Οκτώμβριο 1920"
           </p>
         </div>
-      </div>
+      </Box>
     </section>
   );
 }

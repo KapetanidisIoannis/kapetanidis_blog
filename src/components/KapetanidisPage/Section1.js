@@ -8,7 +8,7 @@ import CustomImage from "../styled/CustomImage";
 export default function Section1() {
   return (
     <section style={{ backgroundColor: "#e2dbcf", padding: "4.5rem 0" }}>
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
         <div className="responsive-columns section1-container">
           <div>
             <SectionTitle>Ο Δημοσιογράφος Νίκος Καπετανίδης</SectionTitle>
@@ -42,7 +42,7 @@ export default function Section1() {
             <p>Ο Νίκος Καπετίδης σε νεαρή ηλικία - 1913</p>
           </div>
         </div>
-        <div className="section1-second-text">
+        <div style={{ marginTop: "2rem" }}>
           <SectionText>
             Το 1916 οι Ρώσοι μπαίνουν στην Τραπεζούντα και ελεύθερος πλέον ο
             Νίκος εκδίδει την εβδομαδιαία εφημερίδα «Σάλπιγγα». Μέσα από τις

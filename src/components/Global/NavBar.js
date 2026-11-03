@@ -13,14 +13,14 @@ export default function NavBar() {
           <nav className={NavBarCSS.navbar}>
             <ul className={NavBarCSS.list}>
               <li className={NavBarCSS.item}>
-                <Link>Νίκος Καπετανίδης</Link>
+                <p>Ζωή και Έργο</p>
 
                 <ul className={NavBarCSS.dropdown}>
                   <li>
                     <Link to="/n_biography">Βιογραφικό</Link>
                   </li>
                   <li>
-                    <Link to="/kapetanidis">Οι Αγώνες του ΝΚ</Link>
+                    <Link to="/kapetanidis">Οι Αγώνες του </Link>
                   </li>
                   <li>
                     <Link to="/Paper">Εφημερίδα "Εποχή"</Link>
@@ -28,7 +28,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className={NavBarCSS.item}>
-                <Link>Ιστορικό Υλικό</Link>
+                <p>Ιστορικό Υλικό</p>
 
                 <ul className={NavBarCSS.dropdown}>
                   <li>
@@ -46,7 +46,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className={NavBarCSS.item}>
-                <Link>Σωματείο Δράσης ΝΚ</Link>
+                <p>Σωματείο Δράσης ΝΚ</p>
 
                 <ul className={NavBarCSS.dropdown}>
                   <li>
@@ -58,7 +58,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className={NavBarCSS.item}>
-                <Link>Κώστας Καπετανίδης</Link>
+                <p>Κώστας Καπετανίδης</p>
 
                 <ul className={NavBarCSS.dropdown}>
                   <li>

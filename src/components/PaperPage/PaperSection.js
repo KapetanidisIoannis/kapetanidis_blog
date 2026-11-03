@@ -4,7 +4,14 @@ import styles from "../text.module.css";
 export default function PaperSection() {
   return (
     <section className={styles.section}>
-      <Box className={styles.box}>
+      <Box
+        sx={{
+          flexGrow: 1,
+          marginLeft: "10%",
+          marginRight: "10%",
+          textAlign: "left",
+        }}
+      >
         <p className={styles.articleText}>
           Με την ευγενική χορηγία του συγγραφέα Δημήτρη Παπαδόπουλου (Σταυριώτη)
           και τη βοήθεια του προέδρου του Συλλόγου «Δράσης Ν. Καπετανίδη»

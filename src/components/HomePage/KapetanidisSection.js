@@ -16,15 +16,9 @@ export default function KapetanidisSection() {
         padding: "5rem 0",
       }}
     >
-      <Box
-        sx={{
-          flexGrow: 1,
-          margin: "0 auto",
-          maxWidth: "95rem",
-        }}
-      >
-        <Grid container spacing={3}>
-          <Grid item xs={5}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <SectionTitle>Ο Νίκος Καπετανίδης</SectionTitle>
             <SectionText>
               “...Όταν το λαϊκον ξύπνημα εδώ εις την Ανατολήν θ΄αρχίση να πάρει
@@ -38,15 +32,15 @@ export default function KapetanidisSection() {
               destination={"kapetanidis"}
               text={"Μάθετε Περισσότερα"}
             />
-          </Grid>
-          <Grid item xs={7}>
+          </div>
+          <div>
             <CustomImage src={group} alt="Description of the image" />
             <CustomCaption>
               Ο Νίκος Καπετανίδης ντυμένος στα λευκά στη πλατεία Μειντάν της
               Τραπεζούντας - Ιούνιος 1917
             </CustomCaption>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

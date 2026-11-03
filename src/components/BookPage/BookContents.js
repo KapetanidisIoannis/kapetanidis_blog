@@ -8,9 +8,9 @@ import CustomCaption from "../styled/customCaption";
 export default function BookContents() {
   return (
     <section style={{ backgroundColor: "#f8f4ef", padding: "4.8rem 0" }}>
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={6}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             <div>
               <img
                 src={Component_1}
@@ -22,8 +22,8 @@ export default function BookContents() {
               Άρθρο του Νίκου Καπετανίδη στην εφήμεριδα του "Εποχή" - Νοέμβριος
               1918
             </CustomCaption>
-          </Grid>
-          <Grid item xs={6}>
+          </div>
+          <div>
             <div>
               <SectionTitle>Περιεχόμενα Βιβλίου</SectionTitle>
               <SectionText>
@@ -59,8 +59,8 @@ export default function BookContents() {
                 </strong>
               </SectionText>
             </div>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

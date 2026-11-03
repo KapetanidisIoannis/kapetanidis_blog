@@ -22,9 +22,9 @@ export default function FirstBook() {
 
   return (
     <section style={{ backgroundColor: "#e2dbcf", padding: "4.8rem 0" }}>
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "20%" }}>
-        <Grid container spacing={3}>
-          <Grid item xs={6}>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div>
             {/* <div className={FirstBookCSS.container}> */}
             <div>
               <SectionTitle>Η Δύση του Ποντιακού Ελληνισμού</SectionTitle>
@@ -52,8 +52,8 @@ export default function FirstBook() {
                 τα χρόνια.
               </SectionText>
             </div>
-          </Grid>
-          <Grid item xs={6}>
+          </div>
+          <div>
             <div>
               <CustomImage src={bookcover} alt="Description of the image" />
               <CustomCaption>
@@ -85,8 +85,8 @@ export default function FirstBook() {
           </div>
         </Modal>
       )} */}
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Box>
     </section>
   );

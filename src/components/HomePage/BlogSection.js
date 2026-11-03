@@ -43,45 +43,39 @@ export default function BlogSection() {
 
   return (
     <section style={{ backgroundColor: "#f8f4ef", padding: "10rem 0rem" }}>
-      <Box sx={{ flexGrow: 1, marginLeft: "20%", marginRight: "22.5%" }}>
-        <Grid container>
-          <Grid item xs={12}>
-            <div>
-              <div style={{ paddingBottom: "2rem" }}>
-                <div
-                  style={{ display: "flex", justifyContent: "space-between" }}
-                >
-                  <SectionTitle>Πρόσφατες Δημοσιεύσεις</SectionTitle>
-                  <div>
-                    <CustomButton
-                      color={"blue"}
-                      text={"Όλες οι Δημοσιεύσεις"}
-                      destination={"blog"}
-                    />
-                  </div>
-                </div>
+      <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
+        <div className="responsive-columns section1-container">
+          <div style={{ paddingBottom: "2rem" }}>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <SectionTitle>Πρόσφατες Δημοσιεύσεις</SectionTitle>
+              <div>
+                <CustomButton
+                  color={"blue"}
+                  text={"Όλες οι Δημοσιεύσεις"}
+                  destination={"blog"}
+                />
               </div>
-              {data &&
-                data.map((post, index) => (
-                  <CustomPost to={`/blog/${post._id}`} key={index}>
-                    <div style={{ fontSize: "2.5rem", fontWeight: 600 }}>
-                      {post.title}
-                    </div>
-                    <div
-                      style={{
-                        fontSize: "1.5rem",
-                        color: "#444444 ",
-                        paddingBottom: "1rem",
-                      }}
-                    >
-                      {post.date}
-                    </div>
-                    <div style={{ fontSize: "1.5rem" }}>{post.content}</div>
-                  </CustomPost>
-                ))}
             </div>
-          </Grid>
-        </Grid>
+          </div>
+          {data &&
+            data.map((post, index) => (
+              <CustomPost to={`/blog/${post._id}`} key={index}>
+                <div style={{ fontSize: "2.5rem", fontWeight: 600 }}>
+                  {post.title}
+                </div>
+                <div
+                  style={{
+                    fontSize: "1.5rem",
+                    color: "#444444 ",
+                    paddingBottom: "1rem",
+                  }}
+                >
+                  {post.date}
+                </div>
+                <div style={{ fontSize: "1.5rem" }}>{post.content}</div>
+              </CustomPost>
+            ))}
+        </div>
       </Box>
     </section>
   );

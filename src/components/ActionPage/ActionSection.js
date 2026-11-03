@@ -506,7 +506,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          14-03-2024
+          14 Μαρτίου 2024
         </div>
         <div>
           <hr
@@ -538,7 +538,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          23.3.2024
+          23 Μαρτίου 2024
         </div>
         <div>
           <hr
@@ -600,7 +600,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          22.09.2024
+          22 Σεπτεμβρίου 2024
         </div>
         <div>
           <hr
@@ -689,7 +689,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          4.11.2024
+          4 Νοεμβρίου 2024
         </div>
         <div>
           <hr
@@ -720,7 +720,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          14.03.2025
+          14 Μαρτίου 2025
         </div>
         <div>
           <hr
@@ -753,7 +753,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          29.03.2025
+          29 Μαρτίου 2025
         </div>
         <div>
           <hr
@@ -787,7 +787,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          15.05.2025
+          15 Μαΐου 2025
         </div>
         <div>
           <hr
@@ -814,7 +814,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          19.05.2025
+          19 Μαΐου 2025
         </div>
         <div>
           <hr
@@ -850,7 +850,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          20.06.2025
+          20 Ιουνίου 2025
         </div>
         <div>
           <hr
@@ -871,7 +871,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          16&amp;17.09.2025
+          16 &amp; 17 Σεπτεμβρίου 2025
         </div>
         <div>
           <hr
@@ -904,7 +904,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          05.10.2025
+          5 Οκτωβρίου 2025
         </div>
         <div>
           <hr
@@ -928,7 +928,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          19.11.2025
+          19 Νοεμβρίου 2025
         </div>
         <div>
           <hr
@@ -949,7 +949,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          03.12.2025
+          3 Δεκεμβρίου 2025
         </div>
         <div>
           <hr
@@ -983,7 +983,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          08.12.2025
+          8 Δεκεμβρίου 2025
         </div>
         <div>
           <hr
@@ -1010,7 +1010,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          26.01.2026
+          26 Ιανουαρίου 2026
         </div>
         <div>
           <hr
@@ -1044,7 +1044,7 @@ export default function BioSection() {
         <div
           style={{ fontSize: "3rem", fontWeight: "bold", textAlign: "center" }}
         >
-          5.02.2026
+          5 Φεβρουαρίου 2026
         </div>
         <div>
           <hr

@@ -25,9 +25,13 @@
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2.2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .item {
@@ -43,4 +47,66 @@
 
 .item a:hover {
   color: #90a9ae;
+}
+
+.item:last-child {
+  font-size: 1.5rem;
+}
+
+/* Mobile footer */
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .links {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem 0.5rem;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .item {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  /* Credit text spans both columns */
+  .item:last-child {
+    grid-column: 1 / -1;
+    font-size: 1.15rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .item {
+    font-size: 1.2rem;
+  }
+
+  .item:last-child {
+    font-size: 1.05rem;
+  }
 }

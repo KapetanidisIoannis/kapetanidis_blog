@@ -1,14 +1,15 @@
 import Box from "@mui/material/Box";
 import Sectio3CSS from "./Section3.module.css";
 import image from "./../../images/7_ΝΚ προσωπογραφια με παπιγιόν.jpg";
+import CustomImage from "../styled/CustomImage";
 
 export default function Section1() {
   return (
     <section className={Sectio3CSS.book_section}>
       <Box sx={{ flexGrow: 1, marginLeft: "10%", marginRight: "10%" }}>
         <div className="responsive-columns section1-container">
-          <div className={Sectio3CSS.image}>
-            <img
+          <div>
+            <CustomImage
               src={image}
               className={Sectio3CSS.book_image}
               alt="Description of the image"

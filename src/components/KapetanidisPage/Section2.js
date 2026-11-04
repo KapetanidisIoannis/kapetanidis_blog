@@ -17,7 +17,13 @@ export default function Section1() {
         <div className="responsive-columns section1-container">
           <div>
             <CustomImage src={image} />
-            <p>
+            <p
+              style={{
+                fontWeight: "600",
+                fontStyle: "italic",
+                fontSize: "1.2rem",
+              }}
+            >
               Ο Νίκος Καπετανίδης με όπλα την εποχή της ρωσικής κατοχής της
               Τραπεζούντας - 1916-1918
             </p>

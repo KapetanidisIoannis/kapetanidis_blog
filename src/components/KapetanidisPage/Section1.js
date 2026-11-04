@@ -39,7 +39,15 @@ export default function Section1() {
           </div>
           <div>
             <CustomImage src={image} alt="Description of the image" />
-            <p>Ο Νίκος Καπετίδης σε νεαρή ηλικία - 1913</p>
+            <p
+              style={{
+                fontWeight: "600",
+                fontStyle: "italic",
+                fontSize: "1.2rem",
+              }}
+            >
+              Ο Νίκος Καπετίδης σε νεαρή ηλικία - 1913
+            </p>
           </div>
         </div>
         <div style={{ marginTop: "2rem" }}>
